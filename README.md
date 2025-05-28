@@ -1,1 +1,1 @@
-# financial-news-analysis
+# Predicting-Price-Moves-with-News-Sentiment
