@@ -3,3 +3,15 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 data/
+docs/html
+docs/.tadoc.org.html
+
+ta-lib-python/
+*.pyc
+ta-lib-python/build/
+ta-lib-python/dist/
+*.so
+.*
+*~
+*.egg-info/
+
