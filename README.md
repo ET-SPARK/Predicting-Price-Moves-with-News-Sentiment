@@ -34,29 +34,6 @@ This project aims to predict stock price movements by combining news sentiment a
 
 ---
 
-## 🔍 Key Findings
-
-### Task 3 Correlation Results
-
-| Symbol | Correlation | P-Value | Observations |
-| ------ | ----------- | ------- | ------------ |
-| AAPL   | -0.003      | 0.876   | 2,228        |
-| AMZN   | -0.014      | 0.502   | 2,228        |
-| GOOG   | +0.014      | 0.521   | 2,228        |
-| META   | -0.004      | 0.877   | 1,847        |
-| MSFT   | -0.012      | 0.586   | 2,228        |
-| NVDA   | +0.011      | 0.616   | 2,228        |
-| TSLA   | +0.026      | 0.217   | 2,228        |
-
-**Interpretation**:
-
-- All correlations are near-zero (-0.014 to +0.026)
-- High p-values (>0.05) indicate no statistically significant relationship
-- News sentiment alone doesn't reliably predict daily stock movements
-- TSLA shows the strongest (but still weak) positive correlation
-
----
-
 ## 📁 Folder Structure
 
 ```
@@ -163,6 +140,26 @@ pip install TA-Lib
 
 ---
 
+## 📉 Task 3: News-Stock Correlation
+
+### Objectives
+
+- Align news dates with trading days
+- Perform sentiment analysis using TextBlob
+- Calculate daily stock returns
+- Measure correlation between:
+- News sentiment scores
+- Next-day price movements
+
+### Implementation
+
+- Created task-3 branch
+- Developed date alignment algorithm
+- Implemented sentiment scoring (-1 to +1)
+- Generated correlation visualizations:
+
+---
+
 ## 🔁 Git Workflow
 
 - **Repo**: `ET-SPARK/Predicting-Price-Moves-with-News-Sentiment`
@@ -189,6 +186,27 @@ pip install TA-Lib
 - Learned and applied TA-Lib and PyNance
 - Accurate technical indicator calculations
 - Complete visualization of analysis results
+
+---
+
+### Task 3 Correlation Results
+
+| Symbol | Correlation | P-Value | Observations |
+| ------ | ----------- | ------- | ------------ |
+| AAPL   | -0.003      | 0.876   | 2,228        |
+| AMZN   | -0.014      | 0.502   | 2,228        |
+| GOOG   | +0.014      | 0.521   | 2,228        |
+| META   | -0.004      | 0.877   | 1,847        |
+| MSFT   | -0.012      | 0.586   | 2,228        |
+| NVDA   | +0.011      | 0.616   | 2,228        |
+| TSLA   | +0.026      | 0.217   | 2,228        |
+
+**Interpretation**:
+
+- All correlations are near-zero (-0.014 to +0.026)
+- High p-values (>0.05) indicate no statistically significant relationship
+- News sentiment alone doesn't reliably predict daily stock movements
+- TSLA shows the strongest (but still weak) positive correlation
 
 ---
 
