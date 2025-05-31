@@ -1,0 +1,58 @@
+[
+  {
+    "symbol": "AAPL",
+    "correlation": -0.003298410743815358,
+    "p_value": 0.8763454639627795,
+    "num_observations": 2228,
+    "merged_data_path": "../results/AAPL_news_stock_merged.csv",
+    "visualization_path": "../results/AAPL_correlation_plot.png"
+  },
+  {
+    "symbol": "AMZN",
+    "correlation": -0.014234915956160017,
+    "p_value": 0.501858045350327,
+    "num_observations": 2228,
+    "merged_data_path": "../results/AMZN_news_stock_merged.csv",
+    "visualization_path": "../results/AMZN_correlation_plot.png"
+  },
+  {
+    "symbol": "GOOG",
+    "correlation": 0.013609425560529449,
+    "p_value": 0.5208360531282946,
+    "num_observations": 2228,
+    "merged_data_path": "../results/GOOG_news_stock_merged.csv",
+    "visualization_path": "../results/GOOG_correlation_plot.png"
+  },
+  {
+    "symbol": "META",
+    "correlation": -0.0035958373358222617,
+    "p_value": 0.8772681473925419,
+    "num_observations": 1847,
+    "merged_data_path": "../results/META_news_stock_merged.csv",
+    "visualization_path": "../results/META_correlation_plot.png"
+  },
+  {
+    "symbol": "MSFT",
+    "correlation": -0.011548836293486027,
+    "p_value": 0.5858656982475257,
+    "num_observations": 2228,
+    "merged_data_path": "../results/MSFT_news_stock_merged.csv",
+    "visualization_path": "../results/MSFT_correlation_plot.png"
+  },
+  {
+    "symbol": "NVDA",
+    "correlation": 0.010632485974219025,
+    "p_value": 0.6159461803481486,
+    "num_observations": 2228,
+    "merged_data_path": "../results/NVDA_news_stock_merged.csv",
+    "visualization_path": "../results/NVDA_correlation_plot.png"
+  },
+  {
+    "symbol": "TSLA",
+    "correlation": 0.026171135687224536,
+    "p_value": 0.2168899789593773,
+    "num_observations": 2228,
+    "merged_data_path": "../results/TSLA_news_stock_merged.csv",
+    "visualization_path": "../results/TSLA_correlation_plot.png"
+  }
+]
