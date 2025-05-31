@@ -1,21 +1,22 @@
 # Predicting Stock Price Movements with News Sentiment
 
-This repository contains the codebase for analyzing the relationship between news sentiment and stock price movements. The project is divided into two main tasks:
+This repository contains the codebase for analyzing the relationship between news sentiment and stock price movements. The project is divided into three main tasks:
 
 - **Task 1**: Git and GitHub with Exploratory Data Analysis (EDA)
 - **Task 2**: Quantitative Analysis using PyNance and TA-Lib
-
-The goal is to explore how news sentiment influences stock prices and apply technical indicators to analyze financial data.
+- **Task 3**: Correlation Analysis between News Sentiment and Stock Movements
 
 ---
 
 ## 📑 Table of Contents
 
 - [Project Overview](#project-overview)
+- [Key Findings](#-key-findings)
 - [Folder Structure](#folder-structure)
 - [Setup Instructions](#setup-instructions)
 - [Task 1: Git and GitHub with EDA](#task-1-git-and-github-with-eda)
 - [Task 2: Quantitative Analysis](#task-2-quantitative-analysis)
+- [Task 3: News-Stock Correlation](#task-3-news-stock-correlation)
 - [Git Workflow](#git-workflow)
 - [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
 - [Contributing](#contributing)
@@ -25,10 +26,34 @@ The goal is to explore how news sentiment influences stock prices and apply tech
 
 ## 🚀 Project Overview
 
-This project aims to predict stock price movements by combining news sentiment analysis with technical indicators. 
+This project aims to predict stock price movements by combining news sentiment analysis with technical indicators.
 
-- **Task 1**: Setting up a Python environment, implementing Git version control, and performing EDA on news data to uncover trends in publication frequency, publisher activity, and text-based insights.
-- **Task 2**: Loading stock price data, calculating technical indicators using TA-Lib, and computing financial metrics with PyNance, followed by visualizations to interpret the results.
+- **Task 1**: Setting up a Python environment and performing EDA on news data
+- **Task 2**: Calculating technical indicators using TA-Lib and financial metrics
+- **Task 3**: Analyzing correlation between news sentiment and stock price movements
+
+---
+
+## 🔍 Key Findings
+
+### Task 3 Correlation Results
+
+| Symbol | Correlation | P-Value | Observations |
+| ------ | ----------- | ------- | ------------ |
+| AAPL   | -0.003      | 0.876   | 2,228        |
+| AMZN   | -0.014      | 0.502   | 2,228        |
+| GOOG   | +0.014      | 0.521   | 2,228        |
+| META   | -0.004      | 0.877   | 1,847        |
+| MSFT   | -0.012      | 0.586   | 2,228        |
+| NVDA   | +0.011      | 0.616   | 2,228        |
+| TSLA   | +0.026      | 0.217   | 2,228        |
+
+**Interpretation**:
+
+- All correlations are near-zero (-0.014 to +0.026)
+- High p-values (>0.05) indicate no statistically significant relationship
+- News sentiment alone doesn't reliably predict daily stock movements
+- TSLA shows the strongest (but still weak) positive correlation
 
 ---
 
